@@ -32,3 +32,11 @@ git add .
 
 git commit -m "first commit" 
 
+git add . && git commit -m "update readme.md"
+
+git remote add origin https://github.com/anil-bit/mlops-demo-anil-.git
+
+git branch -M main
+ 
+git push origin main
+
