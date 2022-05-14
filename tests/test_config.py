@@ -12,3 +12,8 @@ def test_generic():
        if a not in range(10,20):
           raise notinrange
     
+
+def test_something():
+    a = 2
+    b = 2
+    assert True

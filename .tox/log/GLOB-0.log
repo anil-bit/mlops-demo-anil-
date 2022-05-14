@@ -1,6 +1,6 @@
 action: GLOB, msg: packaging
 cwd: /home/issaubuntu/wine
-cmd: /home/issaubuntu/anaconda3/envs/wineq/bin/python setup.py sdist --formats=zip --dist-dir /home/issaubuntu/wine/.tox/dist
+cmd: /home/issaubuntu/anaconda3/envs/wineq/bin/python setup.py sdist --formats=zip --dist-dir .tox/dist
 running sdist
 running egg_info
 writing src/src.egg-info/PKG-INFO
@@ -31,8 +31,7 @@ copying src/src.egg-info/SOURCES.txt -> src-0.0.1/src/src.egg-info
 copying src/src.egg-info/dependency_links.txt -> src-0.0.1/src/src.egg-info
 copying src/src.egg-info/top_level.txt -> src-0.0.1/src/src.egg-info
 Writing src-0.0.1/setup.cfg
-creating /home/issaubuntu/wine/.tox/dist
-creating '/home/issaubuntu/wine/.tox/dist/src-0.0.1.zip' and adding 'src-0.0.1' to it
+creating '.tox/dist/src-0.0.1.zip' and adding 'src-0.0.1' to it
 adding 'src-0.0.1'
 adding 'src-0.0.1/src'
 adding 'src-0.0.1/setup.py'
